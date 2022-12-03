@@ -1,0 +1,168 @@
+:root{
+
+    --font-color:black;
+    --heading-color:black;
+    --primar-color: black;
+    --navbar-color:white;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: .2s;
+    text-transform: capitalize;
+    transition:all .2s linear;
+    text-decoration: none;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    z-index: 1000;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+nav a{
+    margin-left: 4rem;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    position: relative;
+
+
+}
+nav a:hover{
+    color: var(--primar-color);
+}
+nav a::after{
+    content: "";
+    background-color: var(--primar-color);
+    width: 0;
+    transition: 1s;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+.navbar.active{
+    right: 0;
+}
+
+h1{
+    align-items: center;
+    align-content: center;
+    margin-left: 45%;
+    font-family: Algerian;
+    font-size: 40px;
+    color: black;
+}
+h2{
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+    font-family: Algerian;
+    font-size: 20px;
+    color: black;
+}
+p{
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+    font-family: Arial Black;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+
+
+.Image-1{
+    background-image: url(1.jpg);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.Image-2{
+    background-image: url(2.jpg);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.Image-3{
+    background-image: url(3.jpg);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.Image-4{
+    background-image: url(4.webp);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.Image-5{
+    background-image: url(5.jpg);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.Image-6{
+    background-image: url(6.jpg);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 30rem 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
