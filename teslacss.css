@@ -25,6 +25,11 @@ html{
     scroll-padding-top: 6rem;
 }
 
+.img-logo{
+    height: 250px;
+    width: 1540px;
+}
+
 
 header{
     position: fixed;
